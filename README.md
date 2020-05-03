@@ -1,2 +1,3 @@
 # JS-is-awesome
- js-project
+My practice in JS
+<img src="JS-is-awesome.png">
