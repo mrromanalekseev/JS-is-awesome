@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+<header class="main-header">
+    <div class="main-header-wrp">
+        <h1>JavaScript</h1>
+        <ul class="main-header-list">
+            <li class="main-header-list-item">JS is awesome!</li>
+            <li class="main-header-list-item">JS is awesome!</li>
+            <li class="main-header-list-item">JS is awesome!</li>
+            <li class="main-header-list-item">JS is awesome!</li>
+        </ul>
+    </div>
+
+
+    <div class="main-header-pic" id="avatar-cover">
+        <img id='avatar'
+             src="https://d2xzmw6cctk25h.cloudfront.net/product/232/v2_image/small-945d214806ba3343ffd632c2930b8141.png"
+             alt='avatar' width="100%">
+    </div>
+
+    <div>
+        <textarea class="textarea" id="hobbies" cols="21" rows="3">JS, CSS, HTML</textarea>
+    </div>
+
+</header>
+
+<section class="info-controls">
+    <div>
+
+        <input value='Roman' class='Viking default-input' id='first-name'>
+        <input value='Alekseev' class='default-input' id='last-name'>
+        <input value='Arkhangelsk' class='default-input' id='address'>
+
+    </div>
+
+    <div>
+        <select id="cities">
+            <option>Saint-Peterburg</option>
+            <option>Arhangelsk</option>
+            <option>Kenigsberg</option>
+            <option selected="selected">Palo Alto</option>
+        </select>
+    </div>
+
+    <div>
+            <select class="paint" onchange="f(this.value)"> 
+                <option value="orange">Orange</option>
+                <option value="pink">Pink</option>
+                <option value="blue">Blue</option>
+            </select>
+    </div>
+
+    <div>
+        <!--<button id ='send-button'>send</button>-->
+        <button class="default-input color-input" onclick="f()">gold Javascript + MouseEvent in Consol</button>
+    </div>
+
+
+
+</section>
+
+<script src="js.js"></script>
+
+</body>
+
+</html>
